@@ -66,6 +66,7 @@ public class Building : MonoBehaviour
     public void DragBuilding()
     {
         PlayerStats.RemoveBuilding(this);
+        PlayerStats.Gold.Curr += cost;
         isCompleted = false;
         isDragging = true;
     }

@@ -208,11 +208,11 @@ MonoBehaviour:
   buildTime: 0
   isCompleted: 0
   rate: 60
-  rateAmount: 5
+  rateAmount: 150
   amountType: 0
   amount:
     curr: 0
-    max: 100
+    max: 300
     resourceText: {fileID: 0}
     resourceImage: {fileID: 0}
   startTime: 
