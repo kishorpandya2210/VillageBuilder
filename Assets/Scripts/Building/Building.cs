@@ -78,7 +78,7 @@ public class Building : MonoBehaviour
         if (isDragging)
         {
             Vector3 pos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,1));
-            transform.position = new Vector3(pos.x,0,pos.z);
+            transform.position = new Vector3(pos.x*5,0,pos.z*5);
 
             if(Input.GetMouseButtonDown(0))
             {
